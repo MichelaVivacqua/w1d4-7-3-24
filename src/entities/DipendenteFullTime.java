@@ -9,4 +9,9 @@ public class DipendenteFullTime extends Dipendente{
     public void calculateSalary() {
         System.out.println("Lo stipendio fisso per il lavoro a tempo pieno è di "+this.stipendio );
     }
+
+    @Override
+    public void checkIn() {
+        System.out.println("Turno dalle 9 alle 13");
+    }
 }

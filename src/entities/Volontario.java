@@ -1,6 +1,6 @@
 package entities;
 
-public class Volontario {
+public class Volontario implements Checkin {
     public String nome;
     public int eta;
     public String CV;
@@ -9,4 +9,10 @@ public class Volontario {
         this.nome=nome;
         this.eta=eta;
         this.CV=CV;
-}}
+}
+
+    @Override
+    public void checkIn() {
+System.out.println("Turno dalle 9 alle 13");
+    }
+}

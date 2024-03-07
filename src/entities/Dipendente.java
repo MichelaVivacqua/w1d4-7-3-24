@@ -1,6 +1,6 @@
 package entities;
 
-public abstract class Dipendente {
+public abstract class Dipendente implements Checkin{
    protected String matricola;
    protected double stipendio;
     protected TipiDipartimento tipiDipartimento;

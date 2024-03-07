@@ -14,4 +14,9 @@ public class DipendentePartTime extends Dipendente {
         double stipendioTotale = oreLavorate * 10;
         System.out.println("Lo stipendio calcolato è: " + stipendioTotale);
     }
+
+    @Override
+    public void checkIn() {
+        System.out.println("Turno dalle 9 alle 13");
+    }
 }
