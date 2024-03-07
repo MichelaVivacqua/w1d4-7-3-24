@@ -13,6 +13,6 @@ public class Volontario implements Checkin {
 
     @Override
     public void checkIn() {
-System.out.println("Turno dalle 9 alle 13");
+System.out.println("Turno dalle 11 alle 12.30");
     }
 }

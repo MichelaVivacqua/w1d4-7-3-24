@@ -34,6 +34,14 @@ public class Main {
         for (Dipendente dipendente : dipendenti) {
             dipendente.calculateSalary();
         }
+
+        Volontario Giancarlo = new Volontario("Giancarlo",27,"Ingegnere informatico");
+
+        Checkin[] checkinArray = {Michela, Roberta, Riccardo, Giancarlo};
+
+        for (Checkin persona : checkinArray) {
+            persona.checkIn();
+        }
     }
 
 }
