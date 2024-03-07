@@ -1,6 +1,6 @@
 package entities;
 
-public class Dipendente {
+public abstract class Dipendente {
    protected String matricola;
    protected double stipendio;
     protected TipiDipartimento tipiDipartimento;
@@ -36,4 +36,8 @@ public class Dipendente {
         this.stipendio = stipendio;
         this.tipiDipartimento = tipiDipartimento;
 
-}}
+}
+
+    public abstract void calculateSalary();
+
+}
